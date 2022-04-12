@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Marshall_Edu/assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Marshall_Edu/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Sign In</title>
+</head>
+<body>
+
+    <!--Container-->
+    
+        <div class="row">
+            <!--Left-Section-->
+                <div class="col-lg-6 bg-primary marshall-logo-conteneur" style="height:100vh;">
+                   <a href="/Marshall_Edu/html/index.html"><img src="/Marshall_Edu/assets/logo3.png" alt="image" class="img-responsive pt-5 mt-4 marshall-logo"></a>
+                </div>
+            <!--Fin-Left-Section-->
+        
+            <!--Right-Section-->
+                <div class="col-lg-6 ps-5 pt-4 text-center bg-light">
+                    <div class="retour text-start">
+                        <a href="index.html" class="btn btn-md btn-primary">&#10094; Retour</a>
+                    </div>
+                    <!--Greet-->
+                        <div class="container display-4 text-primary fw-bold pt-5 mt-5 text-center">
+                            Connectez-vous!
+                        </div>
+                    <!--Fin-Greet-->
+
+                    <!--Image-->
+                        <div class="container-fluid my-5">
+                            <img src="/Marshall_Edu/assets/undraw_authentication_re_svpt.svg" alt="image" class="img-responsive" style="width: 100%; height:300px">
+                        </div>
+                    <!--Fin-Image-->
+
+                    <!--Form-->
+                        <div class="container-fluid">
+                            <form action="signIn.php" method="post">
+                                <div class="container-fluid" style="width: 400px;">
+                                    <div class="my-3">
+                                        <input type="email" name="email" id="email" placeholder="e-mail" class="form-control">
+                                    </div>
+                        
+                                    <div class="mb-3">
+                                        <input type="password" name="pswd" id="pswd" placeholder="mot de passe" class="form-control">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <button type="submit" class="btn btn-lg btn-primary w-100">Se Connecter</button>
+                                    </div>
+                                    
+                                    <div class="container-fluid mb-3 mx-0 px-0 text-center">
+                                        <a href="recupMdp.html"><i class="fas fa-lock"></i> Mot de passe oublié ?</a>
+                                    </div>
+                        
+                                </div>
+                        
+                            </form>
+
+                            <div class="container-fluid mx-0 px-0 text-center pt-5 mt-5">
+                                Vous n'avez pas de compte ? <a href="signUp.html">Inscrivez vous!</a>
+                            </div>
+                        </div>
+                    <!--Fin-Form-->
+                        
+                </div>
+            <!-- Fin-Right-Section-->
+        
+        </div>
+    <!--Fin-Container-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+</body>
+</html>
