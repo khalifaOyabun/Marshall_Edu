@@ -44,7 +44,7 @@ h1 {
 }
 
 #image {
-    background: url(/Marshall_Edu/assets/tof-6.jpg);
+    background: url('/Projet/Marshall_Edu/assets/tof-6.jpg');
     background-size: cover;
     height: 200vh;
     width: 100%;
